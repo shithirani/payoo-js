@@ -4,6 +4,10 @@ document.getElementById('cash-out-money').addEventListener('click',function(even
     
     const inputMoney=document.getElementById('input-cash-out-money').value;
     const cashOutPin=document.getElementById('input-cash-out-pin').value;
+
+    // if(isNaN (inputMoney)){
+    //     alert('no entry');
+    // }
   
     if(cashOutPin === '4545'){
         const balence=document.getElementById('current-balence').innerText;

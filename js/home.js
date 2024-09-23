@@ -11,6 +11,8 @@ document.getElementById('add-money').addEventListener('click',function(event){
    
    const inputPin= document.getElementById('input-pin').value;
    console.log(addMoney,inputPin);
+
+   
 //    step-3
 
 if(inputPin === '1234'){

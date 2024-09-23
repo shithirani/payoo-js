@@ -14,4 +14,7 @@ document.getElementById('add-money'),addEventListener('click',function(event){
         document.getElementById('current-balence').innerText=newAmmount;
 
     }
+    else{
+        alert('wrong');
+    }
 })
